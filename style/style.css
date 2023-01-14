@@ -42,7 +42,7 @@ ul {
     justify-content: space-between;
     align-items: center;
 
-    padding: 20px 0 110px;
+    padding: 20px 10px 110px;
 }
 
 .header__logo {
@@ -312,10 +312,11 @@ ul {
 /* buildings */
 
 .section__buildings {
-    width: 1920px;
+    max-width: 1920px;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     margin-bottom: 150px;
 }
@@ -392,8 +393,8 @@ ul {
 
 .partners__box {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 /* reviews */
