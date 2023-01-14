@@ -28,6 +28,11 @@
         max-width: 400px;
         width: 30%;
     }
+
+    .section__about .container {
+        gap: 50px;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 1140px) {
@@ -151,7 +156,6 @@
     /* partners */
     .partners__box {
         flex-wrap: wrap;
-        justify-content: space-evenly;
         gap: 20px;
     }
 
@@ -212,7 +216,7 @@
 
     .contacts__item {
         max-width: 500px;
-        width: 46%;
+        width: 43%;
     }
 }
 
@@ -439,8 +443,6 @@
         font-size: 27px;
     }
 
-    /* buildings */
-
     /* faq */
     .faq__heading {
         font-size: 25px;
@@ -451,10 +453,6 @@
         font-size: 20px;
         line-height: 30px;
     }
-
-    /* reviews */
-    
-
     
 
     /* work */
@@ -464,6 +462,11 @@
 
     .work__text {
         font-size: 14px;
+    }
+
+    /* contacts */
+    .contacts__item {
+        width: 100%;
     }
 }
 

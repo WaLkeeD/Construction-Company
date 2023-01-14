@@ -133,7 +133,7 @@ ul {
 }
 
 /* projects */
-.section__projects>* {
+.section__projects > * {
     margin: 0 auto;
 }
 
@@ -286,7 +286,6 @@ ul {
 
     background: #f7f7f7;
     width: 350px;
-
 }
 
 .item__box {
@@ -393,7 +392,7 @@ ul {
 
 .partners__box {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     gap: 10px;
 }
 
@@ -568,7 +567,6 @@ span.red {
 .contacts__icon {
     width: 81px;
     height: 39px;
-
 }
 
 .contacts__text {
